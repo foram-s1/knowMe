@@ -12,8 +12,8 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          
-          <a href="mailto:fshah3@uncc.edu"> <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" /></a>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <a href="mailto:fshah3@uncc.edu">fshah3@uncc.edu</a>
         </li>
         <li className={styles.link}>
           <img
@@ -24,7 +24,7 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://www.github.com/foram-s1">github.com/foram-s1</a>
         </li>
       </ul>
     </footer>
