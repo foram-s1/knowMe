@@ -1,0 +1,12 @@
+node_modules
+dist
+*.eslintrc.cjs
+
+src/components/About
+src/components/Experience
+src/components/Projects
+src/data
+assets/about
+assets/projects
+assets/skills
+assets/history
